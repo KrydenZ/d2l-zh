@@ -9,8 +9,7 @@
 ![用逼近法求圆的面积](../img/polygon-circle.svg)
 :label:`fig_circle_area`
 
-事实上，逼近法就是*积分*（integral calculus）的起源，
-我们将在 :numref:`sec_integral_calculus`中详细描述。
+事实上，逼近法就是*积分*（integral calculus）的起源。
 2000多年后，微积分的另一支，*微分*（differential calculus）被发明出来。
 在微分学最重要的应用是优化问题，即考虑如何把事情做到最好。
 正如在 :numref:`subsec_norms_and_objectives`中讨论的那样，
@@ -281,7 +280,7 @@ $$\frac{dy}{dx} = \frac{dy}{du} \frac{du}{dx}.$$
 注意，$y$是$x_1, x_2， \ldots, x_n$的函数。
 对于任意$i = 1, 2, \ldots, n$，链式法则给出：
 
-$$\frac{dy}{dx_i} = \frac{dy}{du_1} \frac{du_1}{dx_i} + \frac{dy}{du_2} \frac{du_2}{dx_i} + \cdots + \frac{dy}{du_m} \frac{du_m}{dx_i}$$
+$$\frac{\partial y}{\partial x_i} = \frac{\partial y}{\partial u_1} \frac{\partial u_1}{\partial x_i} + \frac{\partial y}{\partial u_2} \frac{\partial u_2}{\partial x_i} + \cdots + \frac{\partial y}{\partial u_m} \frac{\partial u_m}{\partial x_i}$$
 
 ## 小结
 
