@@ -159,7 +159,7 @@ train_augs = torchvision.transforms.Compose([
     normalize])
 
 test_augs = torchvision.transforms.Compose([
-    torchvision.transforms.Resize(256),
+    torchvision.transforms.Resize([256, 256]),
     torchvision.transforms.CenterCrop(224),
     torchvision.transforms.ToTensor(),
     normalize])
@@ -429,4 +429,8 @@ hotdog_w.shape
 
 :begin_tab:`pytorch`
 [Discussions](https://discuss.d2l.ai/t/2894)
+:end_tab:
+
+:begin_tab:`paddle`
+[Discussions](https://discuss.d2l.ai/t/11802)
 :end_tab:
